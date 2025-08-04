@@ -23,11 +23,11 @@
         <header class='header'>
             <div class='container'>
                 <div class="flex-wrapper">
-                    <a href='/' class='logo'>
+                    <span class='logo'>
                         Logo Herderewich
 
                         <img src="/wp-content/themes/websheriff/library/images/logo.svg" alt="Logo Herderwich">
-                    </a>
+                    </span>
                 </div>
             </div>
         </header>

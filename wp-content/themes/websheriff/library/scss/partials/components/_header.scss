@@ -16,7 +16,7 @@ header.header {
         align-items: center;
         justify-content: flex-start;
 
-        a.logo {
+        .logo {
             display: block;
             margin: 0;
             font-size: 0;
@@ -32,7 +32,7 @@ header.header {
     header.header .flex-wrapper {
         height: 60px;
 
-        a.logo img {
+        .logo img {
             height: 40px;
         }
     }

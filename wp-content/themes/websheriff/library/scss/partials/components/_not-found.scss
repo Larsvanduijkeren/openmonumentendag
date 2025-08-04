@@ -1,0 +1,12 @@
+.page-404 .content {
+    background: $grey;
+    padding: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: $radius-mid;
+
+    > *:last-child {
+        margin-bottom: 0;
+    }
+}
