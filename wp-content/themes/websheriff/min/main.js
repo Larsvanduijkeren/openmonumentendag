@@ -1,0 +1,1 @@
+$(document).ready(function(){t(),e()});let e=function(){let l=$(window),o=$("body");l.scrollTop()>0&&o.addClass("scrolled"),l.scroll(function(){l.scrollTop()>10?o.addClass("scrolled"):o.removeClass("scrolled")})},t=function(){$(document).on("click",'a[href^="#"]',function(l){l.preventDefault(),$("html, body").animate({scrollTop:$($.attr(this,"href")).offset().top-120},500)})};

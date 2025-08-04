@@ -1,0 +1,23 @@
+// Global variables
+@import "modules/variables.scss";
+
+.block-editor-block-list__block {
+    max-width: 1800px;
+}
+
+.block-editor-block-list__block:not(.is-selected) {
+    // Reset and general styling
+    @import "partials/base.scss";
+    @import "partials/tools.scss";
+    @import "partials/typography.scss";
+    @import "partials/buttons.scss";
+    @import "partials/styling.scss";
+
+    // Component specific styling
+    @import "partials/components/header";
+    @import "partials/components/not-found";
+    @import "partials/components/footer";
+
+    // Gutenberg
+    @import "partials/components/gutenberg/text";
+}

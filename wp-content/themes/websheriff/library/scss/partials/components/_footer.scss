@@ -1,0 +1,22 @@
+.credits {
+    background: $blue;
+    color: $white;
+    font-size: .8rem;
+
+    .flex-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+
+        a {
+            font-weight: bold;
+            color: $white;
+        }
+    }
+
+    .container {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+}

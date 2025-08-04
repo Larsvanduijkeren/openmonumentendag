@@ -1,0 +1,39 @@
+header.header {
+    background: $blue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+
+    .container {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .flex-wrapper {
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        a.logo {
+            display: block;
+            margin: 0;
+            font-size: 0;
+
+            img {
+                height: 55px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    header.header .flex-wrapper {
+        height: 60px;
+
+        a.logo img {
+            height: 40px;
+        }
+    }
+}

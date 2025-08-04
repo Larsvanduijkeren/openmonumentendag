@@ -1,0 +1,58 @@
+input[type=submit],
+button[type=submit],
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 1rem;
+    font-family: $font-body;
+    font-weight: 600;
+    background: $red;
+    color: $white;
+    padding: 10px 30px;
+    border-radius: 100px;
+    text-align: center;
+    border: 1px solid $red;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+    &:hover,
+    &:focus {
+        background: #830e33 !important;
+        border-color: #830e33 !important;
+    }
+}
+
+.buttons {
+    &.center {
+        text-align: center;
+
+        > * {
+            margin: 0 5px;
+        }
+    }
+
+    > * {
+        margin-right: 10px;
+        margin-bottom: 5px;
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .buttons {
+        flex-direction: column;
+        align-items: stretch;
+        justify-content: flex-start;
+
+        > * {
+            margin: 0 0 10px 0 !important;
+
+            &:last-child {
+                margin-bottom: 0 !important;
+            }
+        }
+    }
+}
