@@ -2,8 +2,8 @@
 lock "~> 3.17.0"
 
 # application and repo settings
-set :application, "taartjesvoorharderwijk"
-set :repo_url, "git@github.com:Larsvanduijkeren/taartjesvoorharderwijk.git"
+set :application, "openmonumentendag"
+set :repo_url, "git@github.com:Larsvanduijkeren/openmonumentendag.git"
 
 # branch = environment
 set :branch, "master"
@@ -11,7 +11,7 @@ set :branch, "master"
 set :deploy_user, "deploy"
 
 # target deployment
-set :deploy_to, "/var/www/html/taartjesvoorharderwijk"
+set :deploy_to, "/var/www/html/openmonumentendag"
 
 set :theme_folder, "wp-content/themes/websheriff"
 set :root_folder, "../.."
